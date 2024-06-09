@@ -1,0 +1,40 @@
+.film-detail-page-open-dialog-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-light-white);
+  width: 250px;
+  height: 150px;
+}
+.check-circle-fill-1-icon {
+  position: absolute;
+  top: 36px;
+  left: 101px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+.success {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 251px;
+  height: 20px;
+}
+.film-detail-page-open-dialog1 {
+  width: 250px;
+  position: relative;
+  height: 150px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkviolet-100);
+  font-family: var(--base-1-semibold);
+}

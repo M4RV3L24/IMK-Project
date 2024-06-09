@@ -1,0 +1,38 @@
+.home-page-open-search-bar-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-light-white);
+  width: 318px;
+  height: 46px;
+}
+.search-3-icon3 {
+  position: absolute;
+  top: 12px;
+  left: 283px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.type-your-movie1 {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  line-height: 20px;
+  display: inline-block;
+  width: 235px;
+}
+.home-page-open-search-bar {
+  width: 318px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 46px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--default-white);
+  font-family: var(--base-1-semibold);
+}

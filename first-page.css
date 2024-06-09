@@ -1,0 +1,181 @@
+.first-page-child {
+  position: absolute;
+  top: calc(50% - 174px);
+  left: calc(50% - 151px);
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: rgba(251, 203, 0, 0.75);
+  border: 5px solid var(--color-gold-100);
+  box-sizing: border-box;
+  width: 302px;
+  height: 329px;
+}
+.clapperboard-2-16 {
+  width: 47px;
+  position: relative;
+  height: 46px;
+  object-fit: cover;
+}
+.cmaxx5 {
+  width: 187px;
+  position: relative;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  height: 49px;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.clapperboard-2-1-parent {
+  position: absolute;
+  top: calc(50% - 148px);
+  left: calc(50% - 132px);
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: var(--br-11xs);
+  border: 5px solid var(--color-gold-100);
+  box-sizing: border-box;
+  width: 263px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) 0 0;
+  gap: var(--gap-5xs);
+  font-size: 44px;
+  color: var(--color-darkviolet-100);
+}
+.star-fill-icon10,
+.star-fill-icon8,
+.star-fill-icon9 {
+  position: absolute;
+  top: calc(50% - 330px);
+  left: calc(50% - 238px);
+  width: 242.3px;
+  height: 242.3px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.star-fill-icon10,
+.star-fill-icon9 {
+  top: calc(50% + 133.7px);
+  left: calc(50% - 252px);
+  width: 177.8px;
+  height: 177.8px;
+}
+.star-fill-icon10 {
+  top: calc(50% - 349px);
+  left: calc(50% + 45px);
+  width: 206.2px;
+  height: 206.2px;
+}
+.star-fill-icon11 {
+  position: absolute;
+  top: calc(50% + 33px);
+  left: calc(50% - 59px);
+  width: 118px;
+  height: 118px;
+  overflow: hidden;
+}
+.status-bar-light8 {
+  position: absolute;
+  top: calc(50% - 306px);
+  left: calc(50% - 164px);
+  width: 328px;
+  height: 18px;
+  object-fit: cover;
+}
+.star-fill-icon12 {
+  position: absolute;
+  top: calc(50% + 154.9px);
+  left: calc(50% - 48px);
+  width: 271.1px;
+  height: 271.1px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.button9 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 800;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button8 {
+  top: calc(50% + 43px);
+  left: calc(50% - 112px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkviolet-100);
+  border: 5px solid var(--color-gold-100);
+  box-sizing: border-box;
+  width: 224px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  cursor: pointer;
+  text-align: center;
+}
+.button10,
+.button8,
+.or {
+  position: absolute;
+}
+.button10 {
+  top: calc(50% - 56px);
+  left: calc(50% - 112px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkviolet-100);
+  border: 5px solid var(--color-gold-100);
+  box-sizing: border-box;
+  width: 224px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  cursor: pointer;
+  text-align: center;
+}
+.or {
+  top: calc(50% - 10px);
+  left: calc(50% - 8px);
+  line-height: 20px;
+  font-weight: 900;
+}
+.group-child71,
+.group-child72 {
+  position: absolute;
+  top: calc(50% + 2px);
+  left: calc(50% + 15px);
+  border-top: 2px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 114px;
+  height: 2px;
+}
+.group-child72 {
+  left: calc(50% - 129px);
+}
+.or-parent {
+  position: absolute;
+  top: calc(50% + 13px);
+  left: calc(50% - 130px);
+  width: 256px;
+  height: 20px;
+  color: var(--color-gray-200);
+}
+.first-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gold-100);
+  height: 640px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-light-white);
+  font-family: var(--base-1-semibold);
+}

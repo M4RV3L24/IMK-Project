@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./sign-in-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sign-in-page">
+      <img class="star-fill-icon4" alt="" src="./public/starfill@2x.png" />
+
+      <div class="sign-in-page-child"></div>
+      <div class="keep-me-signed-in-wrapper">
+        <b class="keep-me-signed">Keep me signed in</b>
+      </div>
+      <div class="forgot-your-password">Forgot your password?</div>
+      <div class="input">
+        <div class="label">Password</div>
+        <div class="content">
+          <img
+            class="start-adornment-icon"
+            alt=""
+            src="./public/startadornment.svg"
+          />
+
+          <div class="placeholder">Password</div>
+          <img
+            class="end-adornment-icon"
+            alt=""
+            src="./public/startadornment.svg"
+          />
+
+          <img
+            class="start-adornment-icon"
+            alt=""
+            src="./public/selectarrow.svg"
+          />
+        </div>
+        <div class="helptext">HelpText</div>
+      </div>
+      <div class="input1">
+        <div class="label">Email</div>
+        <div class="content">
+          <img
+            class="start-adornment-icon"
+            alt=""
+            src="./public/startadornment.svg"
+          />
+
+          <div class="placeholder">Email</div>
+          <img
+            class="end-adornment-icon"
+            alt=""
+            src="./public/startadornment.svg"
+          />
+
+          <img
+            class="start-adornment-icon"
+            alt=""
+            src="./public/selectarrow.svg"
+          />
+        </div>
+        <div class="helptext">HelpText</div>
+      </div>
+      <b class="sign-in">Sign In</b>
+      <div class="new-to-cmaxx">New to CMAXX?</div>
+      <div class="sign-in-page-item"></div>
+      <img class="sign-in-page-inner" alt="" />
+
+      <img class="eye-fill-icon2" alt="" src="./public/eyefill.svg" />
+
+      <div class="button-container" id="groupContainer1">
+        <div class="button2">
+          <div class="button3">Sign In</div>
+        </div>
+      </div>
+      <div class="button-frame" id="groupContainer2">
+        <div class="button2">
+          <div class="button3">Create an Account</div>
+        </div>
+      </div>
+      <div class="checkbox-iconsuncheck-wrapper">
+        <div class="checkbox-iconsuncheck">
+          <div class="checbox"></div>
+        </div>
+      </div>
+      <div class="clapperboard-2-1-wrapper">
+        <img
+          class="clapperboard-2-15"
+          alt=""
+          src="./public/clapperboard-2-1@2x.png"
+        />
+      </div>
+      <img class="star-fill-icon5" alt="" src="./public/starfill@2x.png" />
+
+      <img class="star-fill-icon6" alt="" src="./public/starfill@2x.png" />
+
+      <img class="star-fill-icon7" alt="" src="./public/starfill@2x.png" />
+
+      <img
+        class="status-bar-light6"
+        alt=""
+        src="./public/status-bar--light@2x.png"
+      />
+    </div>
+
+    <script>
+      var groupContainer1 = document.getElementById("groupContainer1");
+      if (groupContainer1) {
+        groupContainer1.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+
+      var groupContainer2 = document.getElementById("groupContainer2");
+      if (groupContainer2) {
+        groupContainer2.addEventListener("click", function (e) {
+          window.location.href = "./sign-up-page.html";
+        });
+      }
+    </script>
+  </body>
+</html>

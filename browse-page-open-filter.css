@@ -1,0 +1,226 @@
+.browse-page-open-filter-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-light-white);
+  width: 250px;
+  height: 341px;
+}
+.tag {
+  position: absolute;
+  top: 73px;
+  left: 23px;
+  font-weight: 500;
+}
+.filter1,
+.group-child32 {
+  position: absolute;
+  top: 0;
+  height: 28px;
+}
+.filter1 {
+  left: 14px;
+  font-weight: 600;
+  display: inline-block;
+  width: 166px;
+}
+.group-child32 {
+  left: 0;
+  background-color: var(--color-gold-300);
+  width: 8px;
+}
+.filter-parent {
+  position: absolute;
+  top: 28px;
+  left: 23px;
+  width: 180px;
+  height: 28px;
+  font-size: var(--font-size-5xl);
+}
+.group-child33 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  width: 205px;
+  height: 31.2px;
+}
+.type-your-tag {
+  position: absolute;
+  top: 5px;
+  left: 7.9px;
+  line-height: 20px;
+  display: inline-block;
+  width: 151.5px;
+  height: 19px;
+}
+.rectangle-parent28 {
+  position: absolute;
+  top: 95px;
+  left: 23px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 205px;
+  height: 31.2px;
+  color: var(--default-white);
+}
+.release-date1 {
+  position: absolute;
+  top: 217px;
+  left: 23px;
+  font-weight: 500;
+}
+.ddmmyy {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  display: inline-block;
+  width: 82px;
+  height: 16px;
+}
+.group-child34 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  width: 95px;
+  height: 26px;
+}
+.claritydate-line-icon,
+.ddmmyy1 {
+  position: absolute;
+  top: 5px;
+  height: 16px;
+}
+.claritydate-line-icon {
+  left: 73px;
+  width: 16px;
+  overflow: hidden;
+}
+.ddmmyy1 {
+  left: 116px;
+  color: #ababab;
+  display: inline-block;
+  width: 82px;
+}
+.group-child35 {
+  position: absolute;
+  top: 0;
+  left: 110px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  width: 95px;
+  height: 26px;
+}
+.claritydate-line-icon1,
+.mdiminus-icon {
+  position: absolute;
+  top: 5px;
+  left: 183px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.mdiminus-icon {
+  top: 6px;
+  left: 94px;
+}
+.ddmmyy-parent {
+  position: absolute;
+  top: 242px;
+  left: 24px;
+  width: 205px;
+  height: 26px;
+  color: #9a9a9a;
+  font-family: var(--font-roboto);
+}
+.button1 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+}
+.button,
+.button-wrapper {
+  position: absolute;
+  width: 205px;
+  height: 26px;
+}
+.button {
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-mediumaquamarine-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.button-wrapper {
+  top: 282px;
+  left: 23px;
+  text-align: center;
+  color: var(--color-darkslategray-100);
+}
+.group-child36 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: #8d00af;
+  width: 111px;
+  height: 23px;
+}
+.live-action {
+  position: absolute;
+  top: 2px;
+  left: 9.4px;
+  font-weight: 600;
+  display: inline-block;
+  width: 94.1px;
+  height: 19px;
+}
+.rectangle-parent29 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 111px;
+  height: 23px;
+}
+.group-parent19,
+.x-icon {
+  position: absolute;
+  height: 24px;
+}
+.x-icon {
+  top: 0;
+  left: 83px;
+  width: 24px;
+  overflow: hidden;
+}
+.group-parent19 {
+  top: 137px;
+  left: 24px;
+  width: 111px;
+  color: var(--color-light-white);
+}
+.browse-page-open-filter {
+  width: 250px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 341px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkviolet-100);
+  font-family: var(--base-1-semibold);
+}

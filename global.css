@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --base-1-semibold: Inter;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --caption-2-medium-size: 12px;
+  --font-size-base: 16px;
+  --font-size-3xs: 10px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-13xl: 32px;
+  --base-1-semibold-size: 15px;
+  --font-size-11xl: 30px;
+  --font-size-2xs: 11px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-light-white: #fff;
+  --color-gold-100: #fbcb00;
+  --color-gold-200: rgba(251, 203, 0, 0.61);
+  --color-gold-300: rgba(251, 203, 0, 0.93);
+  --color-darkviolet-100: #bf00ed;
+  --color-darkslategray-100: #404040;
+  --color-darkslategray-200: #333;
+  --color-mediumaquamarine-100: #00dab0;
+  --color-mediumaquamarine-200: #00ab8a;
+  --default-white: #adb5bd;
+  --secondary-light-color: #abb5be;
+  --color-whitesmoke-100: #f3f3f3;
+  --color-whitesmoke-200: #f0f0f0;
+  --neutral-03: #efefef;
+  --color-purple: #520065;
+  --color-black: #000;
+  --color-light-body-text: #1a1b2d;
+  --color-gray-100: #290e2f;
+  --neutral-07: #1a1d1f;
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-darkorchid-100: #8800a9;
+  --color-teal-100: #057661;
+  --color-teal-200: #00745e;
+  --color-gainsboro-100: #e4e4e4;
+  --gray-300: #dee2e6;
+  --color-dark-grey-v2: #535763;
+  --color: #b5ebcd;
+  --color-dark-grey: #d1d3d4;
+  --color-lightgray-100: #ccc;
+  --color-accent-01: #ffbc99;
+  --color-accent-03: #b1e6fc;
+  --color-silver: #c4c4c4;
+  --color-lightcyan: #d3fff6;
+  --color-mediumorchid: #e162ff;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-122xl: 141px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-xs: 12px;
+  --gap-7xs: 6px;
+  --gap-13xl: 32px;
+  --gap-29xl: 48px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-8xs: 5px;
+  --padding-3xs: 10px;
+  --padding-4xs: 9px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-5xs: 8px;
+  --br-21xl: 40px;
+  --br-13xl: 32px;
+  --br-9xs: 4px;
+  --br-11xs: 2px;
+  --br-5xl: 24px;
+  --br-7xs: 6px;
+  --br-29xl: 48px;
+  --br-mini: 15px;
+
+  /* Effects */
+  --button-01: 0px -1px 1px rgba(0, 0, 0, 0.04) inset,
+    0px 2px 0px rgba(255, 255, 255, 0.25) inset,
+    0px 4px 8px -4px rgba(0, 0, 0, 0.25);
+}

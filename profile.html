@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="profile">
+      <img class="profile-child" alt="" src="./public/ellipse-198@2x.png" />
+
+      <div class="examplegmailcom">example@gmail.com</div>
+      <div class="user12345">User12345</div>
+      <img
+        class="status-bar-light1"
+        alt=""
+        src="./public/status-bar--light@2x.png"
+      />
+
+      <img class="star-fill-icon" alt="" src="./public/starfill@2x.png" />
+
+      <img class="star-fill-icon1" alt="" src="./public/starfill@2x.png" />
+
+      <img class="star-fill-icon2" alt="" src="./public/starfill@2x.png" />
+
+      <img class="star-fill-icon3" alt="" src="./public/starfill@2x.png" />
+
+      <img
+        class="arrow-up-left-circle-fill-1-icon"
+        alt=""
+        src="./public/arrowupleftcirclefill-1.svg"
+      />
+
+      <div class="verified" id="verifiedContainer">
+        <div class="verified-child"></div>
+        <img
+          class="chield-check-fill-icon"
+          alt=""
+          src="./public/chield-check-fill@2x.png"
+        />
+
+        <div class="change-password">CHANGE PASSWORD</div>
+      </div>
+      <div class="footer1">
+        <div class="frame-container">
+          <div class="icon-instagram-with-circle-group">
+            <img
+              class="icon-instagram-with-circle1"
+              alt=""
+              src="./public/-icon-instagram-with-circle.svg"
+            />
+
+            <img
+              class="icon-twitter1"
+              alt=""
+              src="./public/-icon-twitter.svg"
+            />
+
+            <img
+              class="icon-instagram-with-circle1"
+              alt=""
+              src="./public/-icon-brand-youtube.svg"
+            />
+
+            <img
+              class="icon-logo-tiktok1"
+              alt=""
+              src="./public/-icon-logo-tiktok.svg"
+            />
+
+            <img
+              class="icon-instagram-with-circle1"
+              alt=""
+              src="./public/-icon-facebook.svg"
+            />
+          </div>
+          <div class="frame-item"></div>
+          <div class="copyright-20241">Copyright 2024</div>
+          <img class="group-icon1" alt="" src="./public/group.svg" />
+        </div>
+      </div>
+      <img
+        class="edit-fill-icon"
+        alt=""
+        src="./public/edit-fill@2x.png"
+        id="editFillIcon"
+      />
+    </div>
+
+    <div id="changePasswordPopup" class="popup-overlay" style="display: none">
+      <div class="change-password1">
+        <div class="group-parent8">
+          <div class="change-password-parent">
+            <div class="change-password2">Change Password</div>
+            <div class="group-child9"></div>
+          </div>
+          <div class="username4">
+            <div class="username-inner"></div>
+            <div class="current-password">Current Password</div>
+            <div class="username5">Current Password</div>
+          </div>
+          <div class="username6">
+            <div class="username-inner"></div>
+            <div class="current-password">New Password</div>
+            <div class="username7">New Password</div>
+          </div>
+          <div class="username8">
+            <div class="username-inner"></div>
+            <div class="current-password">New Password</div>
+            <div class="username9">New Password Confirmation</div>
+          </div>
+          <img class="eye-fill-icon" alt="" src="./public/eyefill.svg" />
+
+          <img class="eye-fill-icon1" alt="" src="./public/eyefill.svg" />
+        </div>
+        <div class="change2" id="popupchangeContainer">
+          <div class="change-item"></div>
+          <div class="change3">Change</div>
+        </div>
+        <div class="cancel2" id="popupcancelContainer">
+          <div class="cancel-item"></div>
+          <div class="cancel3">Cancel</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="editProfilePopup" class="popup-overlay" style="display: none">
+      <div class="edit-profile">
+        <div class="frame-div">
+          <div class="edit-profile-parent">
+            <div class="edit-profile1">Edit Profile</div>
+            <div class="group-child8"></div>
+          </div>
+          <div class="username">
+            <div class="username-child"></div>
+            <div class="user123451">User12345</div>
+            <div class="username1">Username</div>
+          </div>
+          <div class="username">
+            <div class="username-child"></div>
+            <div class="user123451">example@gmail.com</div>
+            <div class="username3">Email</div>
+          </div>
+        </div>
+        <div class="change" id="popupchangeContainer">
+          <div class="change-child"></div>
+          <div class="change1">Change</div>
+        </div>
+        <div class="cancel" id="popupcancelContainer">
+          <div class="cancel-child"></div>
+          <div class="cancel1">Cancel</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var popupchangeContainer = document.getElementById("popupchangeContainer");
+      if (popupchangeContainer) {
+        popupchangeContainer.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+
+      var popupcancelContainer = document.getElementById("popupcancelContainer");
+      if (popupcancelContainer) {
+        popupcancelContainer.addEventListener("click", function (e) {
+          var popup = e.currentTarget.parentNode;
+          function isOverlay(node) {
+            return !!(
+              node &&
+              node.classList &&
+              node.classList.contains("popup-overlay")
+            );
+          }
+          while (popup && !isOverlay(popup)) {
+            popup = popup.parentNode;
+          }
+          if (isOverlay(popup)) {
+            popup.style.display = "none";
+          }
+        });
+      }
+
+      var popupchangeContainer = document.getElementById("popupchangeContainer");
+      if (popupchangeContainer) {
+        popupchangeContainer.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+
+      var popupcancelContainer = document.getElementById("popupcancelContainer");
+      if (popupcancelContainer) {
+        popupcancelContainer.addEventListener("click", function (e) {
+          var popup = e.currentTarget.parentNode;
+          function isOverlay(node) {
+            return !!(
+              node &&
+              node.classList &&
+              node.classList.contains("popup-overlay")
+            );
+          }
+          while (popup && !isOverlay(popup)) {
+            popup = popup.parentNode;
+          }
+          if (isOverlay(popup)) {
+            popup.style.display = "none";
+          }
+        });
+      }
+
+      var verifiedContainer = document.getElementById("verifiedContainer");
+      if (verifiedContainer) {
+        verifiedContainer.addEventListener("click", function () {
+          var popup = document.getElementById("changePasswordPopup");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+
+      var editFillIcon = document.getElementById("editFillIcon");
+      if (editFillIcon) {
+        editFillIcon.addEventListener("click", function () {
+          var popup = document.getElementById("editProfilePopup");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.5)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+    </script>
+  </body>
+</html>
