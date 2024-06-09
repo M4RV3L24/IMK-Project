@@ -599,7 +599,7 @@
   left: calc(50% - 180px);
   width: 360px;
   height: 41.9px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .arrow-up-left-circle-fill-1-icon1 {
   position: absolute;

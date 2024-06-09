@@ -357,7 +357,7 @@
   left: calc(50% - 180px);
   width: 360px;
   height: 41.9px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .browse-page-start {
   width: 100%;

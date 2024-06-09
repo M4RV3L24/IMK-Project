@@ -255,7 +255,7 @@
   left: calc(50% - 164px);
   width: 328px;
   height: 18px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .sign-in-page {
   width: 100%;

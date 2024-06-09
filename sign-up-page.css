@@ -91,7 +91,7 @@
 .status-bar-light9 {
   top: calc(50% - 308px);
   height: 18px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .sign-up-page-child {
   top: calc(50% - 253px);

@@ -214,7 +214,7 @@
 .status-bar-light2 {
   top: calc(50% - 318px);
   height: 41.9px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .reviews-page {
   width: 100%;
