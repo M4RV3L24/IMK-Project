@@ -217,7 +217,7 @@
   object-fit: contain;
 }
 .reviews-page {
-  width: 100%;
+  width: 360px;
   position: relative;
   background-color: var(--color-light-white);
   height: 640px;
@@ -227,32 +227,34 @@
   color: var(--color-darkviolet-100);
   font-family: var(--base-1-semibold);
 }
-.cmaxx,
+
 .reviews-page-open-drawer-child {
   position: absolute;
-  top: 0;
+  top: 42px;
   left: 1px;
   width: 234px;
   height: 598px;
 }
 .cmaxx {
+  position: absolute;
   left: 30.3px;
   font-weight: 800;
   display: inline-block;
   width: 129.7px;
   height: 38px;
+
 }
 .clapperboard-2-1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 23.9px;
-  height: 32px;
+  width: 25.9px;
+  height: 38px;
   object-fit: cover;
 }
 .cmaxx-parent {
   position: absolute;
-  top: 16px;
+  top: 58px;
   left: 36px;
   width: 160px;
   height: 38px;
@@ -668,7 +670,7 @@
 }
 .navigation-drawer {
   position: absolute;
-  top: 69px;
+  top: 111px;
   left: 0;
   background-color: var(--color-light-white);
   width: 235px;

@@ -30,7 +30,7 @@
   left: calc(50% - 180px);
   width: 360px;
   height: 41.9px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .star-fill-icon,
 .star-fill-icon1,
@@ -186,7 +186,7 @@
   object-fit: cover;
 }
 .profile {
-  width: 100%;
+  width: 360px;
   position: relative;
   background-color: var(--color-light-white);
   height: 640px;

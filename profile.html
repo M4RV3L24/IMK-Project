@@ -14,15 +14,20 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
     />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
   </head>
-  <body>
+  <body style="background-color: black;">
+    <div class="body-parent">
     <div class="profile">
       <img class="profile-child" alt="" src="./public/ellipse-198@2x.png" />
 
       <div class="examplegmailcom">example@gmail.com</div>
       <div class="user12345">User12345</div>
       <img
-        class="status-bar-light1"
+        class="status-bar-light1 p-2"
         alt=""
         src="./public/status-bar--light@2x.png"
       />
@@ -34,12 +39,15 @@
       <img class="star-fill-icon2" alt="" src="./public/starfill@2x.png" />
 
       <img class="star-fill-icon3" alt="" src="./public/starfill@2x.png" />
-
-      <img
+      <a href="index.html">
+        <img
         class="arrow-up-left-circle-fill-1-icon"
         alt=""
         src="./public/arrowupleftcirclefill-1.svg"
       />
+
+      </a>
+      
 
       <div class="verified" id="verifiedContainer">
         <div class="verified-child"></div>
@@ -157,11 +165,12 @@
           <div class="change1">Change</div>
         </div>
         <div class="cancel" id="popupcancelContainer">
-          <div class="cancel-child"></div>
+          <div class="cancel-item"></div>
           <div class="cancel1">Cancel</div>
         </div>
       </div>
     </div>
+  </div>
 
     <script>
       var popupchangeContainer = document.getElementById("popupchangeContainer");

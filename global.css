@@ -10,6 +10,14 @@ body {
   inset: 0;
 }
 
+.body-parent {
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+  height: 100vh;  */
+  background-color: #000;/* Adjust the height as needed, 100vh covers the full viewport height */
+}
+
 :root {
   /* fonts */
   --base-1-semibold: Inter;

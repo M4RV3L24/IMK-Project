@@ -159,6 +159,7 @@
   width: 196px;
   height: 40px;
   display: flex;
+  z-index: 5;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -234,6 +235,7 @@
   width: 271.1px;
   height: 271.1px;
   overflow: hidden;
+  /* z-index: ; */
   object-fit: contain;
 }
 .star-fill-icon6,
@@ -258,7 +260,7 @@
   object-fit: contain;
 }
 .sign-in-page {
-  width: 100%;
+  width: 360px;
   position: relative;
   background-color: var(--color-gold-100);
   height: 640px;

@@ -49,6 +49,7 @@
   width: 24px;
   height: 24px;
   overflow: hidden;
+  z-index: 10;
 }
 .list-1-icon4 {
   left: calc(50% - 160px);
@@ -211,7 +212,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
   overflow-x: auto;
   display: flex;
   flex-direction: row;
@@ -224,7 +225,7 @@
   top: calc(50% - 10.5px);
   left: calc(50% - 160px);
   width: 320px;
-  height: 56px;
+  height: 71px;
   overflow-x: auto;
 }
 .trailer {
@@ -293,7 +294,7 @@
   top: calc(50% - 55.5px);
   left: calc(50% - 160px);
   width: 320px;
-  height: 148px;
+  height: 150px;
   overflow-x: auto;
 }
 .opening-text-child {
@@ -352,7 +353,7 @@
 .top-picks {
   width: 320px;
   position: relative;
-  height: 183px;
+  height: 200px;
 }
 .icon-instagram-with-circle5 {
   width: 25px;
@@ -453,7 +454,7 @@
   object-fit: contain;
 }
 .home-page {
-  width: 100%;
+  width: 360px;
   position: relative;
   background-color: var(--color-light-white);
   height: 640px;
@@ -492,17 +493,18 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 23.9px;
-  height: 32px;
+  width: 25.9px;
+  height: 38px;
   object-fit: cover;
 }
-.logo {
+.cmaxx-parent {
   position: absolute;
-  top: 0;
-  left: 35px;
+  top: 58px;
+  left: 36px;
   width: 160px;
   height: 38px;
   cursor: pointer;
+  font-size: var(--font-size-13xl);
 }
 .avatar-icon4 {
   width: 48px;
@@ -608,7 +610,7 @@
   color: var(--neutral-07);
 }
 .user-parent2 {
-  width: 262px;
+  width: 187px;
   justify-content: flex-start;
   gap: var(--gap-29xl);
 }
@@ -716,9 +718,8 @@
   width: 109px;
   position: relative;
   letter-spacing: -0.01em;
-  line-height: 24px;
+  line-height: 24px !important; 
   font-weight: 600;
-  white-space: pre-wrap;
   display: inline-block;
   flex-shrink: 0;
 }
@@ -742,6 +743,7 @@
   justify-content: flex-start;
   padding: var(--padding-xs);
   gap: var(--gap-9xs);
+  cursor: pointer;
   color: inherit;
 }
 .iconmenu-icon8,
@@ -890,7 +892,7 @@
 }
 .navigation-drawer4 {
   position: absolute;
-  top: 53px;
+  top: 111px;
   left: 0;
   background-color: var(--color-light-white);
   width: 235px;
@@ -902,17 +904,19 @@
   font-size: var(--base-1-semibold-size);
   color: var(--color-light-body-text);
 }
-.group-child50,
+
+/* .group-child50,
 .logo-parent {
   position: absolute;
   top: 0;
   left: 0;
   width: 235px;
   height: 582px;
-}
+} */
 .group-child50 {
-  top: 510px;
-  left: 23px;
+  position: absolute;
+  top: 526px;
+  left: 24px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-5xs);
   background-color: var(--color-gray-100);
@@ -922,8 +926,8 @@
 }
 .log-out4 {
   position: absolute;
-  top: 525px;
-  left: 53px;
+  top: 541px;
+  left: 54px;
   font-size: var(--font-size-sm);
   font-weight: 600;
   color: var(--color-gainsboro-100);
@@ -935,7 +939,7 @@
 .group-child51,
 .group-parent20 {
   position: absolute;
-  top: 16px;
+  top: 58px;
   left: 0;
   width: 235px;
   height: 582px;
@@ -977,13 +981,13 @@
   font-size: var(--font-size-sm);
   color: var(--color-light-white);
 }
-.menu-2-parent {
+/* .menu-2-parent {
   position: absolute;
-  top: 0;
+  top: 42px;
   left: 0;
   width: 235px;
   height: 598px;
-}
+} */
 .home-page-open-drawer {
   width: 234px;
   height: 100%;
@@ -991,23 +995,33 @@
   /* background-color: var(--color-light-white); */
   opacity: 0;
   max-width: 90%;
-  overflow: auto;
+  overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-13xl);
+  font-size: var(--font-size-sm);
   color: var(--color-darkviolet-100);
   font-family: var(--base-1-semibold);
 }
+.home-page-open-drawer-child {
+  position: absolute;
+  top: 42px;
+  left: 1px;
+  width: 234px;
+  height: 598px;
+}
+
+
 .home-page-open-drawer.animate {
   animation: 0.25s ease 0s 1 normal forwards slide-in-left;
 }
 .home-page-open-search-bar-child {
   position: absolute;
   top: 0;
-  left: 0;
-  border-radius: var(--br-3xs);
+  right: 30px;
+  /* border-radius: var(--br-3xs); */
   background-color: var(--color-light-white);
-  width: 318px;
-  height: 46px;
+  width: 270px !important; 
+  height: 35px;
+  z-index: 10;
 }
 .search-3-icon3 {
   position: absolute;
