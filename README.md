@@ -9,7 +9,7 @@
 
 alternative step
 1) Open project root folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-2) Run live server or live preview extension to see code result
+2) Run live server or live preview extension to see the result
 
 
   
