@@ -610,7 +610,7 @@
   overflow: hidden;
 }
 .film-detail-page {
-  width: 100%;
+  width: 360px;
   position: relative;
   background-color: var(--color-light-white);
   height: 2092px;
